@@ -1,0 +1,37 @@
+# Core
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+seaborn>=0.13
+
+# NLP pipeline
+openai-whisper>=20231117
+spacy>=3.7
+sentence-transformers>=2.5
+transformers>=4.38
+torch>=2.6
+torchaudio>=2.1
+soundfile>=0.12
+ffmpeg-python>=0.2
+
+# Speaker diarization (M.4.1)
+# pyannote.audio 3.x oder 4.x; Modell-Lizenz auf HuggingFace erforderlich:
+#   https://hf.co/pyannote/speaker-diarization-3.1
+#   https://hf.co/pyannote/segmentation-3.0
+pyannote.audio>=3.1
+# Schnelleres Whisper-Backend (optional, --backend faster-whisper)
+faster-whisper>=1.0
+# LeoLM-Perplexität via GGUF (M.4.6); CUDA-Wheel: pip install llama-cpp-python
+# --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu124
+llama-cpp-python>=0.3
+
+# Statistics
+pingouin>=0.5
+
+# Notebooks (optional)
+jupyterlab>=4.0
+
+# Utility
+tqdm>=4.66
+python-dotenv>=1.0

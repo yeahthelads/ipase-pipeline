@@ -1,0 +1,39 @@
+# Patientendaten und Ergebnisse — lokal, niemals ins Repo
+# (Transkripte, Sätze, Similarity-Matrizen enthalten Patienteninhalte)
+data/*
+!data/README.md
+results/
+results_de/
+results_lemma/
+AUSWERTUNG_FINAL_2026-07-23/
+
+# Audio-Dateien
+test_audio/
+*.wav
+*.m4a
+*.wma
+*.mp3
+*.mp4
+*.flac
+*.ogg
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Betriebssystem
+.DS_Store
+._*
+Thumbs.db
+
+# Modell-Cache
+models/
+
+# pip/torch Restdateien
+[0-9]*.[0-9]*.[0-9]*
